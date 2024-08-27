@@ -12,6 +12,12 @@ var renderer, scene, camera, floor, raycaster, started, modelCreated, model;
 
 AFRAME.registerComponent("onirix-sdk", {
     init: function () {
+        const custumEventDetail = {
+            message: 'Onirix SDK started',
+        };
+
+        window.parent.postMessage(custumEventDetail, '*');
+        
         window.addEventListener('message', (event) => {
             const message = event.data;
           
