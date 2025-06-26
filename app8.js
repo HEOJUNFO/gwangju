@@ -5,7 +5,7 @@ import OnirixSDK from 'https://unpkg.com/@onirix/ar-engine-sdk@1.8.1/dist/ox-sdk
 // ====== Onirix SDK ======
 
 const OX = new OnirixSDK(
-  'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQyMzMyLCJwcm9qZWN0SWQiOjg2Mzg2LCJyb2xlIjozLCJpYXQiOjE3MjQxMzQzOTR9.mdCZVPOq_G410PqY3yjqtlhOahxUrQKUIpth11jSxQ4'
+   'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQyMzMyLCJwcm9qZWN0SWQiOjExNjk3NSwicm9sZSI6MywiaWF0IjoxNzUwODEyNTQyfQ.qKEzsu_2eh5ET43Wfht8CrKAhWNaZRRFxvQO4Dbmu1k'
 );
 
 var renderer, scene, camera, floor, raycaster, started, modelCreated, model;
